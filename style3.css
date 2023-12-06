@@ -1,0 +1,14 @@
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+h1::before {
+    content: "Pseudo";
+}
+
+h1::after {
+    content: "Selector";
+}

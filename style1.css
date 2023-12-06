@@ -1,0 +1,44 @@
+body{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul a {
+    color: red;
+}
+
+nav > h2 {
+    color: darkblue;
+    background-color: brown;
+}
+
+ul + p {
+    color: cyan;
+}
+
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+a[class="active"] {
+    color: blue;
+    text-decoration: underline;
+}
+
+a[target = "_self"] {
+    background-color: greenyellow;
+}
+
+p:last-child::after {
+    content: "...";
+}
+
+li::marker{
+    color: greenyellow;
+}
+
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+}
